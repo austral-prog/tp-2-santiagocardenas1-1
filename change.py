@@ -1,5 +1,12 @@
-def earth():
-	x = "Bangladesh"
-	y = "Barbados"
-	print(f"The result of {x} comes first in the dictionary than {y} is {x<y}")
-	print(f"The result of {y} comes first in the dictionary than {x} is {x>y}")
+def change():
+    gasto = 23.75
+    dinero_recibido = 100
+    print(gasto)
+    print(dinero_recibido)
+    vuelto = dinero_recibido - gasto
+    pesos = int(vuelto)
+    centavos = int(round((vuelto - pesos) * 100))
+
+    print("\nVuelto\n")
+    print(f"Pesos:\n{pesos}")
+    print(f"Centavos:\n{centavos}")
