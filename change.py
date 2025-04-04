@@ -1,9 +1,9 @@
 def change():
     gasto = 23.75
     dinero_recibido = 100
-    print("Ingresar gasto: ")
+    print("Ingresar gasto:")
     print(gasto)
-    print("Dinero recibido: ")
+    print("Dinero recibido:")
     print(dinero_recibido)
     vuelto = dinero_recibido - gasto
     pesos = int(vuelto)
